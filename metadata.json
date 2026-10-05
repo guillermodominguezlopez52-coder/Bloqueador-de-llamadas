@@ -1,0 +1,6 @@
+{
+  "name": "Bloqueador de Llamadas",
+  "description": "Aplicación para bloquear llamadas telefónicas no deseadas, números desconocidos y spam utilizando la API oficial CallScreeningService de Android.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
