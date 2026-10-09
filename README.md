@@ -1,142 +1,142 @@
-# 📵 Bloqueador de Llamadas
+# 📵 Call Blocker
 
-Aplicación Android gratuita para bloquear llamadas no deseadas, con especial atención a los números que no están guardados en tus contactos.
+A free Android application designed to block unwanted calls, especially those coming from numbers that are not saved in your contacts.
 
-El objetivo de este proyecto es ofrecer una alternativa sencilla y accesible, sin suscripciones, compras integradas ni funciones de pago.
+The goal of this project is to provide a simple and accessible alternative without subscriptions, in-app purchases, or paid features.
 
-> 🚧 Estado del proyecto: en desarrollo y pruebas.
+> 🚧 Project status: Under development and testing.
 
-## ✨ Características
+## ✨ Features
 
-- 🚫 **Bloqueo de llamadas desconocidas:** permite bloquear llamadas de números que no están guardados en tus contactos.
-- 📵 **Lista negra:** agrega números específicos que deseas bloquear.
-- ✅ **Lista blanca:** configura excepciones para permitir llamadas de números seleccionados.
-- 📋 **Historial de bloqueos:** consulta los registros de llamadas bloqueadas.
-- 🔁 **Control de llamadas repetidas:** registra los intentos de llamada de un mismo número.
-- ⚙️ **Configuración personalizable:** activa o desactiva las opciones de bloqueo disponibles.
-- 🔒 **Funcionamiento local:** las funciones principales están diseñadas para trabajar directamente en el dispositivo.
-- 💸 **Completamente gratuita:** sin suscripciones ni compras integradas.
+- 🚫 **Unknown Number Blocking:** Block calls from numbers that are not saved in your contacts.
+- 📵 **Blacklist:** Add specific phone numbers you want to block.
+- ✅ **Whitelist:** Set exceptions to allow calls from selected numbers.
+- 📋 **Call Blocking History:** View records of blocked calls.
+- 🔁 **Repeated Call Tracking:** Keep track of multiple call attempts from the same number.
+- ⚙️ **Customizable Settings:** Enable or disable the available call-blocking options.
+- 🔒 **Local Operation:** Core features are designed to work directly on your device.
+- 💸 **Completely Free:** No subscriptions or in-app purchases.
 
-## 📱 Capturas de pantalla
+## 📱 Screenshots
 
-Próximamente se agregarán capturas de pantalla de la aplicación.
+Screenshots of the application will be added soon.
 
-## 📥 Descargar e instalar
+## 📥 Download and Installation
 
-Puedes descargar la versión disponible desde la sección de lanzamientos del repositorio.
+You can download the available version from the Releases section of this repository.
 
-### Pasos de instalación
+### Installation Steps
 
-1. Entra en la sección **Releases** de este repositorio.
-2. Descarga el archivo APK de la versión que deseas probar.
-3. Abre el archivo APK en tu teléfono Android.
-4. Si Android lo solicita, permite la instalación desde esa fuente.
-5. Abre la aplicación.
-6. Completa la configuración inicial y concede los permisos necesarios.
-7. Si el sistema lo solicita, configura la aplicación como identificador y bloqueador de llamadas.
-8. Activa las opciones de bloqueo que quieras utilizar.
+1. Go to the **Releases** section of this repository.
+2. Download the APK file for the version you want to try.
+3. Open the APK file on your Android phone.
+4. If prompted, allow installation from that source.
+5. Open the application.
+6. Complete the initial setup and grant the required permissions.
+7. If requested by Android, set the application as your call screening and blocking app.
+8. Enable the blocking options you want to use.
 
-**Importante:** descarga el APK únicamente desde los lanzamientos oficiales de este repositorio.
+**Important:** Download the APK only from the official releases of this repository.
 
-## 🧪 Pruebas
+## 🧪 Testing
 
-La aplicación ya se ha instalado y probado en un dispositivo Android físico.
+The application has been installed and tested on a physical Android device.
 
-Durante las primeras pruebas se registraron 15 llamadas bloqueadas.
+During the initial tests, 15 calls were blocked.
 
-El proyecto continúa en fase de pruebas para comprobar su funcionamiento en diferentes dispositivos y versiones de Android.
+The project is still in the testing phase to verify its functionality across different devices and Android versions.
 
-Se recomienda verificar los siguientes escenarios:
+The following scenarios are recommended for testing:
 
-- Una llamada de un número que no está guardado en contactos.
-- Una llamada de un contacto guardado.
-- Una llamada de un número agregado manualmente a la lista negra.
-- Una llamada de un número agregado a las excepciones.
-- Varias llamadas consecutivas del mismo número.
+- An incoming call from a number that is not saved in contacts.
+- An incoming call from a saved contact.
+- An incoming call from a number manually added to the blacklist.
+- An incoming call from a number added to the whitelist.
+- Multiple consecutive calls from the same number.
 
-Los resultados pueden variar según la versión de Android, los permisos concedidos y las características del dispositivo.
+Results may vary depending on the Android version, granted permissions, and device characteristics.
 
-## 🛠️ Tecnologías
+## 🛠️ Technologies
 
-El proyecto está desarrollado para Android.
+The project is developed for Android.
 
-- **Lenguaje:** Kotlin.
-- **Plataforma:** Android.
-- **Entorno de desarrollo:** Android Studio.
-- **Bloqueo de llamadas:** API de identificación y bloqueo de llamadas de Android.
+- **Programming Language:** Kotlin.
+- **Platform:** Android.
+- **Development Environment:** Android Studio.
+- **Call Blocking:** Android's call screening and blocking APIs.
 
-## 💻 Compilar desde el código fuente
+## 💻 Building from Source
 
-Si deseas revisar o modificar el proyecto:
+If you want to review or modify the project:
 
-1. Descarga el ZIP del código fuente.
-2. Extrae su contenido en una carpeta.
-3. Abre Android Studio.
-4. Selecciona la carpeta raíz del proyecto.
-5. Espera a que termine la sincronización de Gradle.
-6. Conecta un dispositivo Android compatible o configura un emulador.
-7. Compila y ejecuta la aplicación.
+1. Download the source code ZIP file.
+2. Extract its contents into a folder.
+3. Open Android Studio.
+4. Select the project's root folder.
+5. Wait for Gradle synchronization to complete.
+6. Connect a compatible Android device or configure an emulator.
+7. Build and run the application.
 
-La compilación puede requerir descargar las dependencias y herramientas del SDK correspondientes.
+Building the project may require downloading the appropriate dependencies and Android SDK tools.
 
-## 🔐 Privacidad
+## 🔐 Privacy
 
-La aplicación está diseñada para gestionar localmente las reglas de bloqueo y los registros necesarios para su funcionamiento.
+The application is designed to manage blocking rules and the records required for its operation locally on the device.
 
-Los permisos solicitados deben utilizarse únicamente para las funciones correspondientes de la aplicación.
+Requested permissions should only be used for their corresponding application features.
 
-Antes de instalarla, revisa los permisos que solicita y asegúrate de descargarla desde una fuente confiable.
+Before installing the application, review the permissions it requests and make sure you download it from a trusted source.
 
-## ⚠️ Limitaciones
+## ⚠️ Limitations
 
-- El funcionamiento depende de las APIs disponibles en Android.
-- Algunas funciones requieren permisos o una configuración especial del sistema.
-- La compatibilidad puede variar entre fabricantes y versiones de Android.
-- El bloqueo de números desconocidos no garantiza la identificación de llamadas fraudulentas.
-- Los números privados u ocultos pueden tener un tratamiento diferente según el dispositivo y las capacidades disponibles.
+- Functionality depends on the APIs available in Android.
+- Some features require permissions or special system configuration.
+- Compatibility may vary across manufacturers and Android versions.
+- Blocking unknown numbers does not guarantee the identification of fraudulent calls.
+- Private or hidden numbers may be handled differently depending on the device and available system capabilities.
 
-Este proyecto todavía está en desarrollo. Algunas funciones y aspectos de compatibilidad pueden cambiar en futuras versiones.
+This project is still under development. Features and compatibility may change in future releases.
 
-## 🗺️ Próximas mejoras
+## 🗺️ Roadmap
 
-Estas son algunas ideas que podrían incorporarse en futuras versiones:
+The following improvements may be included in future versions:
 
-- [ ] Mejorar la presentación del historial.
-- [ ] Agrupar las llamadas repetidas de un mismo número.
-- [ ] Añadir estadísticas de llamadas bloqueadas.
-- [ ] Mejorar la gestión de listas negras y blancas.
-- [ ] Ampliar las pruebas en diferentes dispositivos Android.
-- [ ] Incorporar nuevas opciones de bloqueo según las capacidades de Android.
+- [ ] Improve the call history interface.
+- [ ] Group repeated calls from the same number.
+- [ ] Add statistics for blocked calls.
+- [ ] Improve blacklist and whitelist management.
+- [ ] Expand testing across different Android devices.
+- [ ] Introduce additional blocking options based on Android capabilities.
 
-Las mejoras se implementarán según los resultados de las pruebas y las necesidades de los usuarios.
+Improvements will be implemented according to testing results and user feedback.
 
-## 🤝 Colaboraciones
+## 🤝 Contributions
 
-¿Encontraste un error o tienes alguna sugerencia?
+Have you found a bug or have a suggestion?
 
-Puedes contribuir de las siguientes maneras:
+You can contribute in the following ways:
 
-1. Prueba la aplicación.
-2. Describe los errores que encuentres.
-3. Comparte sugerencias para mejorarla.
-4. Abre un Issue en este repositorio.
+1. Test the application.
+2. Report any issues you encounter.
+3. Share suggestions for improvements.
+4. Open an Issue in this repository.
 
-Las opiniones de los usuarios son importantes para mejorar el proyecto.
+User feedback is important for improving the project.
 
-## 💙 Proyecto gratuito
+## 💙 Free Project
 
-Este proyecto nace con la intención de ofrecer una herramienta gratuita para ayudar a reducir las llamadas no deseadas.
+This project was created with the goal of providing a free tool to help reduce unwanted calls.
 
-No necesitas una suscripción para utilizar las funciones gratuitas disponibles.
+No subscription is required to use the available free features.
 
-## 📄 Licencia
+## 📄 License
 
-La licencia del proyecto está pendiente de definirse.
+The project license has not yet been defined.
 
-Hasta que se publique una licencia explícita, no se concede automáticamente permiso para redistribuir, modificar o reutilizar el código.
+Until an explicit license is published, no permission is automatically granted to redistribute, modify, or reuse the code.
 
 ---
 
-**Gracias por visitar el proyecto y ayudar a mejorarlo.** 💙
+**Thank you for visiting the project and helping make it better!** 💙
 
-Si pruebas la aplicación, comparte tu experiencia y las funciones que te gustaría ver en futuras versiones.
+If you try the application, share your experience and let us know which features you would like to see in future releases.
